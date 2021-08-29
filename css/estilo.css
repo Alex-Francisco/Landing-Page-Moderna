@@ -81,7 +81,7 @@ header {
 }
 
 .content h2 {
-  font-size: 5em;
+  font-size: 4.2em;
   font-weight: 300;
   color: var(--white);
   text-align: center;
@@ -99,7 +99,7 @@ header {
   padding: 16px 36px;
   margin-top: 20px;
   border-radius: 50px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   transition: 0.25s;
 }
 
@@ -151,4 +151,8 @@ header {
   border-radius: 50%;
   cursor: pointer;
   margin-left: 10px;
+}
+
+.pontinhos-ancoras .pa.ativo {
+  background: var(--white);
 }
