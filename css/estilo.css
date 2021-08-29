@@ -69,3 +69,86 @@ header {
 .navegacao li a:hover {
   color: var(--red);
 }
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.content h2 {
+  font-size: 5em;
+  font-weight: 300;
+  color: var(--white);
+  text-align: center;
+}
+
+.content h2 span {
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--red);
+  color: var(--white);
+  text-decoration: none;
+  padding: 16px 36px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-size: 1.5em;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  letter-spacing: 4px;
+}
+
+.bike {
+  max-width: 80%;
+}
+
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  color: var(--white);
+  font-size: 2em;
+  margin-right: 20px;
+  transition: 0.25s;
+}
+
+.social li a:hover {
+  color: var(--red);
+}
+
+.pontinhos-ancoras {
+  display: flex;
+}
+
+.pontinhos-ancoras .pa {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
